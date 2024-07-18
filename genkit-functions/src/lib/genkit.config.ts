@@ -21,9 +21,12 @@ import { vertexAI } from '@genkit-ai/vertexai';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  // ...
-  projectId: 'REPLACE_WITH_YOUR_PROJECT_ID',
-  // ...
+  apiKey: "AIzaSyAeesoQ76IEu1axmt2fuZijCKIUXSpjZAo",
+  authDomain: "genkit-test-8b8aa.firebaseapp.com",
+  projectId: "genkit-test-8b8aa",
+  storageBucket: "genkit-test-8b8aa.appspot.com",
+  messagingSenderId: "203974281862",
+  appId: "1:203974281862:web:5091343035572549a75f07"
 };
 
 export const getProjectId = () => {
